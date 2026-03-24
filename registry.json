@@ -1,0 +1,331 @@
+{
+  "version": "1",
+  "plugins": [
+    {
+      "name": "explorer",
+      "description": "File explorer sidebar for navigating your site.",
+      "source": "github:quartz-community/explorer",
+      "tags": ["navigation", "component"],
+      "official": true
+    },
+    {
+      "name": "search",
+      "description": "Full-text search for your Quartz site.",
+      "source": "github:quartz-community/search",
+      "tags": ["navigation", "component"],
+      "official": true
+    },
+    {
+      "name": "graph",
+      "description": "Interactive graph view showing note connections.",
+      "source": "github:quartz-community/graph",
+      "tags": ["navigation", "component", "visualization"],
+      "official": true
+    },
+    {
+      "name": "backlinks",
+      "description": "Shows pages that link to the current page.",
+      "source": "github:quartz-community/backlinks",
+      "tags": ["navigation", "component"],
+      "official": true
+    },
+    {
+      "name": "breadcrumbs",
+      "description": "Breadcrumb navigation showing the current page's path.",
+      "source": "github:quartz-community/breadcrumbs",
+      "tags": ["navigation", "component"],
+      "official": true
+    },
+    {
+      "name": "table-of-contents",
+      "description": "Table of contents sidebar generated from headings.",
+      "source": "github:quartz-community/table-of-contents",
+      "tags": ["navigation", "component"],
+      "official": true
+    },
+    {
+      "name": "darkmode",
+      "description": "Dark/light mode toggle for your site.",
+      "source": "github:quartz-community/darkmode",
+      "tags": ["theme", "component"],
+      "official": true
+    },
+    {
+      "name": "page-title",
+      "description": "Displays the site title in the header.",
+      "source": "github:quartz-community/page-title",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "article-title",
+      "description": "Displays the article title on content pages.",
+      "source": "github:quartz-community/article-title",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "footer",
+      "description": "Site footer with links and copyright info.",
+      "source": "github:quartz-community/footer",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "reader-mode",
+      "description": "Toggle for a distraction-free reading experience.",
+      "source": "github:quartz-community/reader-mode",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "spacer",
+      "description": "Flexible spacer component for layout adjustments.",
+      "source": "github:quartz-community/spacer",
+      "tags": ["component", "layout"],
+      "official": true
+    },
+    {
+      "name": "recent-notes",
+      "description": "Shows recently modified notes.",
+      "source": "github:quartz-community/recent-notes",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "stacked-pages",
+      "description": "Andy Matuschak-style stacked page navigation.",
+      "source": "github:quartz-community/stacked-pages",
+      "tags": ["navigation", "component"],
+      "official": true
+    },
+    {
+      "name": "comments",
+      "description": "Comment system integration (Giscus, Utterances, etc.).",
+      "source": "github:quartz-community/comments",
+      "tags": ["component", "integration"],
+      "official": true
+    },
+    {
+      "name": "note-properties",
+      "description": "Displays frontmatter properties on the page.",
+      "source": "github:quartz-community/note-properties",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "favicon",
+      "description": "Custom favicon for your site.",
+      "source": "github:quartz-community/favicon",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "obsidian-flavored-markdown",
+      "description": "Transforms Obsidian-specific markdown syntax (callouts, wikilinks, etc.).",
+      "source": "github:quartz-community/obsidian-flavored-markdown",
+      "tags": ["transformer", "markdown"],
+      "official": true
+    },
+    {
+      "name": "github-flavored-markdown",
+      "description": "Adds GitHub Flavored Markdown support (tables, task lists, etc.).",
+      "source": "github:quartz-community/github-flavored-markdown",
+      "tags": ["transformer", "markdown"],
+      "official": true
+    },
+    {
+      "name": "syntax-highlighting",
+      "description": "Code block syntax highlighting.",
+      "source": "github:quartz-community/syntax-highlighting",
+      "tags": ["transformer", "markdown"],
+      "official": true
+    },
+    {
+      "name": "latex",
+      "description": "LaTeX math rendering support.",
+      "source": "github:quartz-community/latex",
+      "tags": ["transformer", "markdown"],
+      "official": true
+    },
+    {
+      "name": "description",
+      "description": "Generates page descriptions from content for SEO and previews.",
+      "source": "github:quartz-community/description",
+      "tags": ["transformer"],
+      "official": true
+    },
+    {
+      "name": "created-modified-date",
+      "description": "Tracks and displays created/modified dates for pages.",
+      "source": "github:quartz-community/created-modified-date",
+      "tags": ["transformer"],
+      "official": true
+    },
+    {
+      "name": "crawl-links",
+      "description": "Resolves and validates internal links between pages.",
+      "source": "github:quartz-community/crawl-links",
+      "tags": ["transformer"],
+      "official": true
+    },
+    {
+      "name": "hard-line-breaks",
+      "description": "Treats single newlines as line breaks.",
+      "source": "github:quartz-community/hard-line-breaks",
+      "tags": ["transformer", "markdown"],
+      "official": true
+    },
+    {
+      "name": "ox-hugo",
+      "description": "Compatibility for ox-hugo exported Org-mode files.",
+      "source": "github:quartz-community/ox-hugo",
+      "tags": ["transformer"],
+      "official": true
+    },
+    {
+      "name": "roam",
+      "description": "Compatibility for Roam Research export format.",
+      "source": "github:quartz-community/roam",
+      "tags": ["transformer"],
+      "official": true
+    },
+    {
+      "name": "citations",
+      "description": "Academic citation and bibliography support.",
+      "source": "github:quartz-community/citations",
+      "tags": ["transformer", "markdown"],
+      "official": true
+    },
+    {
+      "name": "encrypted-pages",
+      "description": "Password-protect individual pages.",
+      "source": "github:quartz-community/encrypted-pages",
+      "tags": ["transformer"],
+      "official": true
+    },
+    {
+      "name": "tag-list",
+      "description": "Displays tags on content pages.",
+      "source": "github:quartz-community/tag-list",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "content-page",
+      "description": "Default content page emitter.",
+      "source": "github:quartz-community/content-page",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "folder-page",
+      "description": "Generates listing pages for folders.",
+      "source": "github:quartz-community/folder-page",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "tag-page",
+      "description": "Generates listing pages for tags.",
+      "source": "github:quartz-community/tag-page",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "canvas-page",
+      "description": "Renders Obsidian canvas files as pages.",
+      "source": "github:quartz-community/canvas-page",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "bases-page",
+      "description": "Default bases page emitter.",
+      "source": "github:quartz-community/bases-page",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "content-index",
+      "description": "Generates RSS feed and sitemap for your site.",
+      "source": "github:quartz-community/content-index",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "alias-redirects",
+      "description": "Creates redirect pages from frontmatter aliases.",
+      "source": "github:quartz-community/alias-redirects",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "og-image",
+      "description": "Generates Open Graph images for social media previews.",
+      "source": "github:quartz-community/og-image",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "cname",
+      "description": "Generates CNAME file for custom domain deployment.",
+      "source": "github:quartz-community/cname",
+      "tags": ["emitter"],
+      "official": true
+    },
+    {
+      "name": "content-meta",
+      "description": "Displays reading time and word count metadata.",
+      "source": "github:quartz-community/content-meta",
+      "tags": ["component"],
+      "official": true
+    },
+    {
+      "name": "remove-draft",
+      "description": "Filters out draft pages from the build.",
+      "source": "github:quartz-community/remove-draft",
+      "tags": ["filter"],
+      "official": true
+    },
+    {
+      "name": "explicit-publish",
+      "description": "Only publishes pages with an explicit publish flag.",
+      "source": "github:quartz-community/explicit-publish",
+      "tags": ["filter"],
+      "official": true
+    },
+    {
+      "name": "quartz-themes",
+      "description": "Community color themes for Quartz. Provides pre-built light/dark color schemes.",
+      "source": {
+        "name": "quartz-themes",
+        "repo": "github:saberzero1/quartz-themes",
+        "subdir": "plugin"
+      },
+      "tags": ["theme", "colors"],
+      "official": true
+    },
+    {
+      "name": "obsidian-plugin-leaflet",
+      "description": "Quartz integration for the Obsidian Leaflet map plugin.",
+      "source": "github:quartz-community/obsidian-plugin-leaflet",
+      "tags": ["integration", "component"],
+      "official": true
+    },
+    {
+      "name": "obsidian-plugin-ttrpg-tools-maps",
+      "description": "Quartz integration for TTRPG Tools: Maps Obsidian plugin.",
+      "source": "github:quartz-community/obsidian-plugin-ttrpg-tools-maps",
+      "tags": ["integration", "component"],
+      "official": true
+    },
+    {
+      "name": "quartz-leaflet-bases-plugin",
+      "description": "Custom Leaflet map support for Quartz pages.",
+      "source": "github:Requiae/quartz-leaflet-bases-plugin",
+      "tags": ["integration", "component"],
+      "official": false
+    }
+  ]
+}
